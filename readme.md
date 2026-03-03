@@ -10,7 +10,7 @@ Having previously implemented Ha & Schmidhuber's World Models, Dreamer felt like
 It learns behaviours entirely within the latent space by backpropagating through time, rather than relying on CMA or other black-box optimizers.
 
 ### Repository Structure
-[dreamer-v1-from-scratch.ipynb](dreamer-v1-from-scratch.ipynb) contains the block-wise implementation of Dreamer v1, alongside the personal notes I took while replicating this architecture.
+[dreamer-from-scratch.ipynb](dreamer-from-scratch.ipynb) contains the block-wise implementation of Dreamer v1, alongside the personal notes I took while replicating this architecture.
 
 ### Training
 The world model is trained via latent imagination on [Mountain Car](https://gymnasium.farama.org/environments/classic_control/mountain_car_continuous/) using Gymnasium's continuous variant, where the agent must learn to build momentum to reach the goal.
